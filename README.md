@@ -1,13 +1,21 @@
-HOW TO INSTALL: 
+## Installation
 
-Download zip
+Follow these steps to install the Chrome Leads Extension locally:
 
-Open Chrome and go to chrome://extensions/.
+1. **Download the ZIP**
 
-Toggle Developer mode (top right).
+2. **Unzip the archive**  
+Unzip the downloaded file so that you have a folder containing `manifest.json` and the other extension files.
 
-Click Load unpacked.
+3. **Open Chrome’s Extensions page**  
+ Navigate to: https://github.com/your-username/your-extension/archive/refs/heads/main.zip
 
-Select the folder where you unzipped or cloned the repo (the folder containing manifest.json).
+4. **Enable Developer mode**  
+Toggle on **Developer mode** (top right corner of the Extensions page).
 
-The extension should appear in your toolbar.
+5. **Load the extension**  
+- Click **Load unpacked**.  
+- In the file picker, select the folder where you unzipped or cloned this repo (the folder that contains `manifest.json`).
+
+6. **Verify the extension**  
+After loading, you should see “Leads tracker” in your toolbar. 
